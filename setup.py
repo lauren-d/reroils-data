@@ -141,6 +141,8 @@ setup(
             'reroils_data.documents.dojson.contrib.marc21tojson:marc21tojson',
             'unimarctojson ='
             'reroils_data.documents.dojson.contrib.unimarctojson:unimarctojson',
+            'bnfauthtojson ='
+            'reroils_data.documents.dojson.contrib.bnfauthtojson:bnfauthtojson'
         ],
         'flask.commands': [
             'fixtures = reroils_data.cli:fixtures',
